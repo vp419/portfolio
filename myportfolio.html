@@ -1,0 +1,180 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRANDI - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    
+    <nav class="gradient-bg text-white p-4 sticky top-0 z-10 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Virandi</div>
+            <button class="md:hidden focus:outline-none" onclick="toggleMenu()">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            <div class="nav-links hidden md:flex gap-6">
+                <a href="#home" class="hover:text-gray-200 transition">Home</a>
+                <a href="#about" class="hover:text-gray-200 transition">About</a>
+                <a href="#skills" class="hover:text-gray-200 transition">Skills</a>
+                <a href="#projects" class="hover:text-gray-200 transition">Projects</a>
+                <a href="#contact" class="hover:text-gray-200 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="home" class="gradient-bg text-white py-24">
+        <div class="container mx-auto text-center fade-in">
+            <h1 class="hero-text text-5xl font-extrabold mb-4">Hi, I'm Virandi Prabhadili Pulasinghe</h1>
+            <p class="text-xl mb-6 opacity-90">Project Management Enthusiast | CS Student</p>
+            <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-full hover:bg-gray-100 hover-scale">Let's Connect</a>
+        </div>
+    </section>
+
+    
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">About Me</h2>
+            <div class="about-content flex gap-12 items-center fade-in">
+                <img src="proffesional photo.jpg " alt="Profile Picture" class="rounded w-40 h-40 object-cover shadow-lg">
+                <div class="text-lg text-gray-700">
+                    <p class="mb-4">I'm a dedicated Project Management enthusiast at the University of Sri Jayewardenepura, currently pursuing a Bachelor of Science in Computer Science (Expected 2027). I hold a Diploma in Human Resource Management (2023) and an English Diploma from the Sri Lankan English Language Graduates' Association, enhancing my communication and leadership skills. With 6 months of work experience as a data entry operator, I bring practical insights to my role as Project Manager for an essential module group project. I thrive on challenges, with plans to pursue a Master’s in Project Management post-2027.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="skills" class="py-20 bg-blue-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="skill-item bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-lg font-semibold mb-2">Programming Languages</h3>
+                    <p>Python <span class="skill-bar"><span class="skill-progress" style="width: 80%;">20%</span></span></p>
+                    <p>JavaScript <span class="skill-bar"><span class="skill-progress" style="width: 75%;">45%</span></span></p>
+                    <p>HTML5 <span class="skill-bar"><span class="skill-progress" style="width: 85%;">65%</span></span></p>
+                    <p>CSS <span class="skill-bar"><span class="skill-progress" style="width: 80%;">50%</span></span></p>
+                </div>
+                <div class="skill-item bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-lg font-semibold mb-2">Frameworks</h3>
+                    <p>React <span class="skill-bar"><span class="skill-progress" style="width: 70%;">10%</span></span></p>
+                    <p>Node.js <span class="skill-bar"><span class="skill-progress" style="width: 65%;">10%</span></span></p>
+                </div>
+                <div class="skill-item bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-lg font-semibold mb-2">Management & Planning</h3>
+                    <p>Project Scheduling <span class="skill-bar"><span class="skill-progress" style="width: 80%;">80%</span></span></p>
+                    <p>Resource Allocation <span class="skill-bar"><span class="skill-progress" style="width: 75%;">75%</span></span></p>
+                    <p>Risk Management <span class="skill-bar"><span class="skill-progress" style="width: 70%;">70%</span></span></p>
+                </div>
+                <div class="skill-item bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-lg font-semibold mb-2">People & Communication</h3>
+                    <p>Team Coordination <span class="skill-bar"><span class="skill-progress" style="width: 85%;">85%</span></span></p>
+                    <p>Stakeholder Communication <span class="skill-bar"><span class="skill-progress" style="width: 80%;">80%</span></span></p>
+                    <p>Conflict Resolution <span class="skill-bar"><span class="skill-progress" style="width: 75%;">75%</span></span></p>
+                </div>
+                <div class="skill-item bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-lg font-semibold mb-2">Problem-Solving & Critical Thinking</h3>
+                    <p>Analytical Decision-Making <span class="skill-bar"><span class="skill-progress" style="width: 80%;">80%</span></span></p>
+                    <p>Process Optimization <span class="skill-bar"><span class="skill-progress" style="width: 75%;">75%</span></span></p>
+                </div>
+                <div class="skill-item bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-lg font-semibold mb-2">Soft Skills & Others</h3>
+                    <p>Leadership <span class="skill-bar"><span class="skill-progress" style="width: 85%;">85%</span></span></p>
+                    <p>Time Management <span class="skill-bar"><span class="skill-progress" style="width: 80%;">80%</span></span></p>
+                    <p>Adaptability <span class="skill-bar"><span class="skill-progress" style="width: 75%;">75%</span></span></p>
+                    <p>Data Entry <span class="skill-bar"><span class="skill-progress" style="width: 90%;">90%</span></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="py-20 bg-black">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-lg hover-scale fade-in">
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Essential Module Group Project</h3>
+                    <p class="mb-4 text-gray-600">Leading as Project Manager to deliver a key CS module project, ensuring timely execution and team collaboration.</p>
+                    <a href="#" class="text-blue-600 hover:underline font-semibold">View</a>
+                </div>
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-lg hover-scale fade-in">
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Personal Web Portfolio</h3>
+                    <p class="mb-4 text-gray-600">A responsive portfolio site built with HTML5 and CSS for CCS2023 Assignment 02.</p>
+                    <a href="#" class="text-blue-600 hover:underline font-semibold">View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="cv" class="py-20 bg-blue-100">
+        <div class="container mx-auto text-center px-4 fade-in">
+            <h2 class="text-4xl font-bold mb-8 text-gray-800">Download My CV</h2>
+            <a href="My_CV.pdf" download class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 hover-scale">Download CV</a>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto text-center px-4 fade-in">
+            <h2 class="text-4xl font-bold mb-8 text-gray-800">Contact Me</h2>
+            <p class="mb-4 text-lg text-gray-700">Email: virandiprabhadili@gmail.com</p>
+            <p class="mb-4 text-lg text-gray-700">Phone: +94 751644257</p>
+            <div class="flex justify-center gap-6">
+                <a href="https://linkedin.com" class="text-blue-600 hover:text-blue-800 hover-scale"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com" class="text-blue-600 hover:text-blue-800 hover-scale"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="extra" class="py-20 bg-blue-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Extra-Curricular & Achievements</h2>
+            <div class="flex flex-col md:flex-row gap-12 fade-in">
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-700">Extra-Curricular Activities</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>National Badminton Player (Under 17)  </li>
+                        <li>School Badminton Team Captain</li>
+                        <li>Member of University Sports Club</li>
+                        <li>Level 1 Gymnastics, National Gymnastic Association of Sri Lanka </li>
+                        <li>Prefect, Primary School</li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-700">Achievements</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Multiple Color Awards in Badminton, School Level (2018-2020)</li>
+                        <li>Diploma in HRM Certification (2023)</li>
+                        <li>English Diploma, Sri Lankan English Language Graduates' Association (2023)</li>
+                        <li>Visharadha Music Exams (Vocal and Instruments), AFFILIATE BHATKHANDE SANGITH VIDYAPITH-LUCKNOW (2024)</li>
+                        <li>Successfully Leading PM Role in Essential Module Group Project (2025)</li>
+                        <li>6 Months Work Experience as Data Entry Operator (2024-2025)</li>
+                        <li>Planned Pursuit of Master’s in Project Management (Post-2027)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="gradient-bg text-white py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-sm">© 2025 VIRANDI. All rights reserved.</p>
+            <div class="flex justify-center gap-6 mt-2">
+                <a href="https://facebook.com" class="hover:text-gray-200 hover-scale"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://twitter.com" class="hover:text-gray-200 hover-scale"><i class="fab fa-twitter fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+     
+</body>
+</html>

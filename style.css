@@ -1,0 +1,104 @@
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #041b36, #8b5cf6);
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        .skill-bar {
+            height: 20px;
+            background-color: #090a0d;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #4a90e2, #8b5cf6);
+            border-radius: 10px;
+            transition: width 1.5s ease-in-out;
+            text-align: right;
+            color: white;
+            font-size: 12px;
+            padding-right: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .skill-item:hover .skill-progress {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 640px) {
+            .hero-text { font-size: 2.5rem; }
+            .flex-col { flex-direction: column; }
+            .nav-links { display: none; }
+            .nav-links.active { display: flex; flex-direction: column; }
+        }
+        @media (max-width: 768px) {
+            .about-content { flex-direction: column; }
+        }
+        /* General Font Awesome icon styling */
+.fa-icon {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Social media icons in footer */
+.footer-social a .fa-icon {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer-social a:hover .fa-icon {
+    color: #e0e7ff;
+    transform: scale(1.2);
+}
+
+/* Navigation menu toggle icon */
+.nav-toggle .fa-icon {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-toggle:hover .fa-icon {
+    color: #e0e7ff;
+    transform: rotate(90deg);
+}
+
+/* Social media icons in contact section */
+.contact-social .fa-icon {
+    font-size: 2rem;
+    color: #4a90e2;
+}
+
+.contact-social a:hover .fa-icon {
+    color: #8b5cf6;
+    transform: scale(1.1);
+}
+
+/* Ensure icons are centered and spaced properly */
+.fa-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .footer-social .fa-icon {
+        font-size: 1.2rem;
+    }
+    .contact-social .fa-icon {
+        font-size: 1.5rem;
+    }
+    .nav-toggle .fa-icon {
+        font-size: 1.2rem;
+    }
+}
