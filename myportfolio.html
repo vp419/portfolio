@@ -7,14 +7,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body class="bg-gray-50 font-sans">
     
     <nav class="gradient-bg text-white p-4 sticky top-0 z-10 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
             <div class="text-2xl font-bold">Virandi</div>
-            <button class="md:hidden focus:outline-none" onclick="toggleMenu()">
-                <i class="fas fa-bars text-2xl"></i>
+            <button class="nav-toggle md:hidden focus:outline-none" onclick="toggleMenu()">
+                    <i class="fas fa-bars fa-icon"></i>
             </button>
             <div class="nav-links hidden md:flex gap-6">
                 <a href="#home" class="hover:text-gray-200 transition">Home</a>
@@ -99,8 +100,18 @@
             <h2 class="text-4xl font-bold text-center mb-12 text-red-800">Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="project-card bg-gray-50 p-6 rounded-lg shadow-lg hover-scale fade-in">
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Statistic Distribution Project</h3>
+                    <p class="mb-4 text-gray-600">A multivariate analysis examining how university students' sleep and study habits impact their academic performance.</p>
+                    <a href="#" class="text-blue-600 hover:underline font-semibold">View</a>
+                </div>
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md hover-scale fade-in">
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Web Technology Group Project</h3>
+                    <p class="mb-4 text-gray-600">A web-based platform designed to connect university students and faculty members for academic research projects.</p>
+                    <a href="#" class="text-blue-600 hover:underline font-semibold">View</a>
+                </div>
+                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-lg hover-scale fade-in">
                     <h3 class="text-2xl font-bold mb-3 text-gray-800">Essential Module Group Project</h3>
-                    <p class="mb-4 text-gray-600">Leading as Project Manager to deliver a key CS module project, ensuring timely execution and team collaboration.</p>
+                    <p class="mb-4 text-gray-600">Contributed to a key CS module project, focusing on collaborative technical development.</p>
                     <a href="#" class="text-blue-600 hover:underline font-semibold">View</a>
                 </div>
                 <div class="project-card bg-gray-50 p-6 rounded-lg shadow-lg hover-scale fade-in">
